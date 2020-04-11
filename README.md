@@ -4,7 +4,7 @@
 
 ```
 Note :-
-The Pixabay API and Secret are stored in the .env file and are not pused to the repo for security reasons.
+The Pixabay API and Secret are stored in the .env file and are not pushed to the repo for security reasons.
 
 1. Clone the repo
 2. run npm install
