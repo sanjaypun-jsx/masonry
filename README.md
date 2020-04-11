@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 😄 React Masonry Layout
 
-## Available Scripts
+## Images Credits [https://pixabay.com/](https://pixabay.com/)
 
-In the project directory, you can run:
+```
+Note :-
+The Pixabay API and Secret are stored in the .env file and are not pused to the repo for security reasons.
 
-### `npm start`
+1. Clone the repo
+2. run npm install
+3. Please Create a .env file in the root of your project
+4. create a env variable as
+    REACT_APP_PIXABAY_API_KEY=12345679123456798
+5. Replace the API key with the KEY you get when you create the pixabay account.
+6. run npm start (or) if you are already running the app, please restart for the changes to take effect
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Dependencies -
 
-### `npm test`
+`required`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [react-masonry-css](https://www.npmjs.com/package/react-masonry-css) - For Masonry Layout
 
-### `npm run build`
+- [axios](https://www.npmjs.com/package/axios) - For Making Network Requests
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [dotenv](https://www.npmjs.com/package/dotenv) - To Store the `API Key` and `API Secret` in the environmental variables.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [pixabayAPI](https://pixabay.com/service/about/api/) - Create a Pixabay Account for the `API Key` and `API Secret`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Optional`
 
-### `npm run eject`
+- css
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  - [bootstrap](https://www.npmjs.com/package/bootstrap) - Bootstrap 4.4 [official site](https://getbootstrap.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - [jquery](https://www.npmjs.com/package/jquery) - Jquery ([official site](https://jquery.com/)) required by bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- react
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - [react-infinite-scroller](https://www.npmjs.com/package/react-infinite-scroller) - for Infinite scrolling
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Preview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![preview](./preview.gif)
 
-### Code Splitting
+# 👉 Subscribe to My Channel [💙❤️Youtube❤️💙](https://www.youtube.com/channel/UCpOHt5d6GG-mvo-_pU06rhQ?sub_confirmation=1)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ❤️ - by [FrontEndFunn](https://www.youtube.com/channel/UCpOHt5d6GG-mvo-_pU06rhQ?sub_confirmation=1)
