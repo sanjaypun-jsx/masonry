@@ -1,16 +1,14 @@
 import React from 'react';
 
 const Image = (props) => {
-  const { tags, webformatURL } = props;
-  return (
-    <div className="row">
-      <div className="col-md-12 px-0">
-        <div className="rounded-lg overflow-hidden">
-          <img src={webformatURL} className="img-fluid " alt={tags}></img>
-        </div>
-      </div>
-    </div>
-  );
+	const { tags, download_url } = props;
+	return (
+		<img
+			src={download_url}
+			style={{ maxWidth: '100%', marginTop: 15, marginLeft: 0, borderRadius: '5px' }}
+			alt={tags}
+		/>
+	);
 };
 
 export default Image;
